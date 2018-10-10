@@ -1,8 +1,5 @@
-# RcppArmadillo reference guide
 
-## Example
 
-```c++
 // [[Rcpp::depends(RcppArmadillo)]]
 
 #include <RcppArmadillo.h>
@@ -23,10 +20,4 @@ List fastLm(const arma::vec & y, const arma::mat & X) {
    return List::create(Named("coefficients") = coef,
                        Named("stderr")       = stderrest);
 }
-```
 
-## Contact
-
-Spencer Woody (email: `spencer.woody@utexas.edu`)
-
-   
