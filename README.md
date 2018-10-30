@@ -25,6 +25,9 @@ List fastLm(const arma::vec & y, const arma::mat & X) {
 }
 ```
 
+## Call Rcpp function defined in another script
+[SO link](https://stackoverflow.com/questions/15891781/how-to-call-on-a-function-found-on-another-file)
+
 ## Contact
 
 Spencer Woody (email: `spencer.woody@utexas.edu`)
